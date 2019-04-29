@@ -1,0 +1,145 @@
+# https://jsonresume.org/schema/
+
+basics:
+  name: "Claudio Canales"
+  label: >
+    Senior Cloud Operations Engineer at Invoca. Passion for automation, productivity,
+    elegant design, and craft beer.
+  email: "claudio.canales.vic@gmail.com"
+  phone: "641-451-3307"
+  website: "https://www.claud.dev"
+  summary: >
+    Senior Cloud Operations Engineer with a focus on creating repeatable processes and systems
+    that people enjoy using. Over the last 8 years I've honed my skills in
+    Data Engineering, Infrastructure Provisioning,
+    Database Development & Analysis, Automation, and Operations.
+
+  location:
+    postalCode: "UT 81401"
+    city: "Salt Lake City"
+    countryCode: "US"
+    region: "Utah"
+
+  profiles:
+    - network: "GitHub"
+      username: "klaudioz"
+      url: "https://github.com/klaudioz"
+
+    - network: "LinkedIn"
+      username: "canalesclaudio"
+      url: "https://www.linkedin.com/in/canalesclaudio"
+
+work:  
+  - company: "Progrexion"
+    position: "Devops Engineer"
+    website: "https://www.progrexion.com"
+    startDate: "2017-04-10"
+    summary: >
+      not completed
+      yet.
+    highlights:
+      - "Improved time to implement any project with Control-M in a 80% by building new processes and standars."
+      - "Leaded migration from Control-M v8 to v9 with a minimal downtime including an entire architecture change."
+      - "Implemented CI/CD workflows and automation helping to improve our deployment processes."
+
+  - company: "EFTGroup (Paygroup)"
+    position: "SDE/Devops"
+    website: "https://www.evertecinc.com"
+    startDate: "2014-04-20"
+    endDate: "2016-04-01"
+    summary: >
+      not completed
+      yet.
+    highlights:
+      - "Ensured successful and accurate processing of transactions higher than $8,000 by designing back-end functionalities for the Itau Bank High Amounts System."
+      - "Evolved the Itau Bank High Amounts System by converting it into an RPM packed product; created RPMs for the back-end, front-end, and databases, leading to successful product sale to Santander Bank."
+      - "Implemented and optimized multiple automation processes with a high efficiency and performance."
+
+  - company: "Adexus"
+    position: "Software Engineer"
+    website: "https://www.adexus.com"
+    startDate: "2011-04-01"
+    endDate: "2013-12-20"
+    summary: >
+      not completed
+      yet.
+    highlights:
+      - "Acted as the primary developer on the VTR phone database project; boosted system efficiency from 30% to 60% via database optimization."
+      - "Led development on improving payroll extraction processes and sub-processes project; minimized the process from 6 hours to 40 minutes via temporary tables and indices."
+      - "Facilitated multiple projects by creating Control-M workflows resulted in process advancements."
+
+  - company: "Atcom Outsourcing S.A"
+    position: "BI Developer"
+    website: "https://www.atcom.cl/"
+    startDate: "2010-01-10"
+    endDate: "2011-03-25"
+    summary: >
+      not completed
+      yet.
+    highlights:
+      - "Enabled extraction of new information and correction of key problems by creating several Linux shells."
+      - "Provided Qlikview reports spanning KPIs enhanced the high management decision making process."
+      - "Designed a CakePHP website that allowed unparalleled transparency in data availability in the warehouse."
+
+education:
+  - institution: "Maharishi University of Management"
+    area: "Computer Sciences"
+    studyType: "Masters of Science in Computer Science"
+    startDate: "2016-04-10"
+    endDate: "2018-12-21"
+
+  - institution: "Pontifical Catholic University of Valparaiso"
+    area: "Computer Sciences"
+    studyType: "Civil Engineer in Computer Science and B.S.E. in Science Engineering"
+    startDate: "2001-03-01"
+    endDate: "2009-08-01"
+
+
+skills:
+  - name: "Daily Toolbelt"
+    level: "Advanced"
+    keywords:
+      - "Control-M"
+      - "Configuration Management / Configuration Integration"
+      - "AWS"
+      - "Data Migration"
+      - "Docker"
+      - "ElectricCloud"
+      - "Python"
+      - "GitLab/GitHub"
+
+  - name: "Techniques"
+    level: "Intermediate"
+    keywords:
+      - "Kubernetes"
+      - "Salt"
+      - "Ansible"
+      - "Artifactory"
+      - "CircleCI"
+      - "GCP"
+
+  - name: "Other"
+    level: "Intermediate"
+    keywords:
+      - "Bash"
+      - "Java"
+      - "PL/SQL"
+      - "Qlikview"
+      - "Oracle, MySQL, MSSQL"
+      - "Tomcat, Wildfly, Glassfish"
+
+
+volunteer:
+  - organization: "American Kenpo Karate"
+    position: "Child instructor"
+    website: "http://www.kenpokarate.cl"
+    startDate: "2005-01-01"
+    endDate: "2006-09-01"
+    summary: "Physical preparation for the start of the class. Technical instructions in self-defense techniques"
+
+awards:
+  - title: "VivaEFT Prize"
+    date: "2015-11-11"
+    awarder: "EFT Group"
+    summary: >
+      Commitment and Collaboration Achievement Award
