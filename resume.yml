@@ -3,17 +3,14 @@
 basics:
   name: "Claudio Canales"
   label: >
-    Senior Cloud Operations Engineer at Invoca. Passion for automation, productivity,
-    elegant design, and craft beer.
+    DevOps Engineer at Progression. Passion for knowledge.
   email: "claudio.canales.vic@gmail.com"
   phone: "641-451-3307"
   website: "https://www.claud.dev"
   summary: >
-    Senior Cloud Operations Engineer with a focus on creating repeatable processes and systems
-    that people enjoy using. Over the last 8 years I've honed my skills in
-    Data Engineering, Infrastructure Provisioning,
-    Database Development & Analysis, Automation, and Operations.
-
+    Highly technical engineer with 8 years of hands-on experience in back-end development, including managing the software development lifecycle using design patterns.
+    Experienced with new DevOps technologies and practices implementing Serverless Microservices Architecture using CI/CD in a fully automated pipeline.
+    Technical knowledge and hands-on experience of DevOps, Automation, Build Engineering and Configuration Management.
   location:
     postalCode: "UT 81401"
     city: "Salt Lake City"
@@ -35,8 +32,8 @@ work:
     website: "https://www.progrexion.com"
     startDate: "2017-04-10"
     summary: >
-      not completed
-      yet.
+      Progrexion and its consumer brands have helped hundreds of thousands of consumers take charge of their credit reputations.
+      We have helped them understand the credit reporting system and have ensured that information contained in their credit reports is verifiable, fair, accurate, and relevant
     highlights:
       - "Improved time to implement any project with Control-M in a 80% by building new processes and standars."
       - "Leaded migration from Control-M v8 to v9 with a minimal downtime including an entire architecture change."
