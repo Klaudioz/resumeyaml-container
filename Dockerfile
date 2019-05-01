@@ -1,7 +1,7 @@
 FROM node:alpine
 
 RUN apk update && apk add --no-cache git && \
-    npm install -g --unsafe-perm resume-cli yamljs jsonresume-theme-kwan
+    npm install -g --unsafe-perm resume-cli@0.4.19 yamljs resume-server jsonresume-theme-elegant
 
 WORKDIR /resume
 COPY resume.yml .
