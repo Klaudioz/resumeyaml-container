@@ -49,7 +49,9 @@ jobs:
             chmod u+x ./kubectl
       - run:
           name: Deploy Code
-          command: bash ./scripts/ci-deploy.sh
+          command: |
+            curl -LO https://github.com/Klaudioz/resumeyaml-container/blob/master/scripts/ci-deploy.sh
+            chmod u+x ./ci-deploy.sh
 workflows:
   version: 2
   build-master:
