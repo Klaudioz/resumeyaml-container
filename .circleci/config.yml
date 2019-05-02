@@ -49,7 +49,7 @@ jobs:
             chmod u+x ./kubectl
       - run:
           name: Deploy Code
-          command: bash scripts/ci-deploy.sh
+          command: bash ./scripts/ci-deploy.sh
 workflows:
   version: 2
   build-master:
