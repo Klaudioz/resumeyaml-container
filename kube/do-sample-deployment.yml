@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: resumeyaml
-          image: klaudioz/resumeyaml:latest
+          image: klaudioz/resumeyaml:$COMMIT_SHA1
           ports:
             - containerPort: 4000
               name: http
