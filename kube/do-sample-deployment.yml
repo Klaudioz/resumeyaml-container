@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resumeyaml
+  namespace: default
+  labels:
+    app: resumeyaml
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: resumeyaml
+  template:
+    metadata:
+      labels:
+        app: resumeyaml
+    spec:
+      containers:
+        - name: resumeyaml
+          image: klaudioz/resumeyaml:latest
+          ports:
+            - containerPort: 4000
+              name: http
