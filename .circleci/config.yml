@@ -50,7 +50,7 @@ jobs:
       - run:
           name: Deploy Code
           command: |
-            curl -LO https://github.com/Klaudioz/resumeyaml-container/blob/master/scripts/ci-deploy.sh
+            curl -O https://raw.githubusercontent.com/Klaudioz/resumeyaml-container/master/scripts/ci-deploy.sh
             chmod u+x ./ci-deploy.sh
             ./ci-deploy.sh
 workflows:
